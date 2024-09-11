@@ -1,13 +1,10 @@
 PImage img;
 
 
-//get(x, y) = pixels[y*width+x]
-
-
 void setup() {
   size(2000, 1200);
   float ppi = 1080/8.5;
-  img = loadImage("C:/Users/mcdun/Downloads/IMG_1674.jpg"); // Make sure the path is correct
+  img = loadImage("sample_image.jpg"); // Make sure the path is correct
   image(img, 0, 0, width, height);
   loadPixels();
   noFill();
